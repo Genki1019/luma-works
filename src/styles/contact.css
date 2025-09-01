@@ -1,0 +1,61 @@
+.contact {
+  padding: 80px 0;
+}
+
+.contact .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.contact .text {
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact form {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.contact label::after {
+  content: " *";
+  color: red;
+  vertical-align: middle;
+}
+
+.contact input,
+.contact textarea {
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  padding: 13px 16px;
+  margin-bottom: 30px;
+  border: solid 1px #5f6648;
+  border-radius: 5px;
+}
+
+.contact input[type="submit"],
+.contact input[type="reset"] {
+  text-align: center;
+  background-color: #5f6648;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px 16px 22px;
+  letter-spacing: 6px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.contact input[type="submit"]:hover,
+.contact input[type="reset"]:hover {
+  background-color: #303324;
+  transition: 0.3s;
+}

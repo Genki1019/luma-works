@@ -1,0 +1,189 @@
+/* 全体共通 */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #5f6648;
+  background-color: #ddeeaa;
+}
+
+.svg {
+  width: 200px;
+}
+
+.btn {
+  font-size: 18px;
+  border: solid 1px #5f6648;
+  border-radius: 100px;
+  display: inline-block;
+  width: 270px;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+/* 下層ページメインビジュアル */
+.page_main_visual {
+  background-image: url("../assets/main-visual.png");
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+
+.page_main_visual .container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 300px;
+}
+
+.page_main_visual .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.page_main_visual h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.page_main_visual p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.page_main_visual .mask {
+  background-color: #ddeeaa;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 768px) {
+  .page_main_visual .title {
+    transform: translateX(-50%) translateY(-30%);
+  }
+  .page_main_visual h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .page_main_visual p {
+    font-size: 16px;
+  }
+
+  .page_main_visual .container {
+    height: 120px;
+  }
+}
+
+/* ヘッダー */
+header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 20px 0;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 50px;
+  transition: 0.3s;
+}
+
+header nav ul li:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  header .row {
+    display: block;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  header nav ul li {
+    margin-left: 0;
+  }
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+  border-top: 1px solid #5f6648;
+  padding: 50px 0 20px;
+}
+
+footer .logo {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+footer ul li {
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+footer ul li a {
+  transition: 0.3s;
+}
+
+footer ul li a:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  footer ul {
+    display: block;
+  }
+
+  footer ul li {
+    margin-bottom: 20px;
+  }
+}

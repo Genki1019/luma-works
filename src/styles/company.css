@@ -1,0 +1,81 @@
+.company {
+  padding: 80px 0;
+}
+
+.company .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.company .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.company .col {
+  width: 48%;
+}
+
+.company table {
+  width: 100%;
+}
+
+.company table tr {
+  padding: 20px 0;
+  display: block;
+  border-bottom: solid 1px #5f6648;
+}
+
+.company table tr th {
+  width: 150px;
+}
+
+.company table tr td {
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .company .row {
+    flex-wrap: wrap;
+    gap: 24px 0;
+    margin-bottom: 48px;
+  }
+
+  .company .col {
+    width: 100%;
+  }
+
+  .company table tr th {
+    width: 100px;
+  }
+
+  .company table tr td {
+    line-height: 1.6;
+  }
+}
+
+/* アクセス */
+.access {
+  padding: 0 0 80px;
+}
+
+.access .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.access .sub_title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.access h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}

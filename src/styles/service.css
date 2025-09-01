@@ -1,0 +1,68 @@
+.service {
+  padding: 80px 0;
+}
+
+.service .container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.service .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.service .row.reverse {
+  flex-direction: row-reverse;
+}
+
+.service .col {
+  width: 48%;
+}
+
+.service .heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #5f6648;
+  margin-bottom: 24px;
+}
+
+.service h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #487c38;
+  margin-bottom: 30px;
+}
+
+.service .text {
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .service .row {
+    flex-wrap: wrap;
+    gap: 24px 0;
+    margin-bottom: 48px;
+  }
+
+  .service .col {
+    width: 100%;
+  }
+
+  .service .heading {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .service h3 {
+    font-style: 26px;
+    margin-bottom: 16px;
+  }
+
+  .service .text {
+    font-size: 15px;
+  }
+}

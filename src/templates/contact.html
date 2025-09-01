@@ -1,0 +1,36 @@
+<section class="page_main_visual">
+  <div class="container">
+    <div class="title">
+      <h1>お問い合わせ</h1>
+      <p>- Contact -</p>
+    </div>
+  </div>
+  <div class="mask"></div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <div class="text">
+      弊社へのお問い合わせは、以下までお願いいたします。<br />
+      回答させていただくまでに、お時間を数日いただく場合もございます。予めご了承ください。<br />
+      また、弊社のクライアント企業に関する情報等やお問い合わせの内容によっては、<br />
+      回答致しかねる場合もございますので、あわせてご了承ください。
+    </div>
+    <form action="/" method="post">
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required />
+      <label for="content">お問い合わせ内容</label>
+      <textarea
+        name="content"
+        id="content"
+        rows="10"
+        placeholder="お問い合わせ内容をご記入ください"
+        required
+      ></textarea>
+      <input type="submit" value="送信" />
+      <input type="reset" value="リセット" />
+    </form>
+  </div>
+</section>
