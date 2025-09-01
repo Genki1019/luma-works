@@ -27,7 +27,7 @@ body {
 
 /* 下層ページメインビジュアル */
 .page_main_visual {
-  background-image: url("../assets/main-visual.png");
+  background-image: url("/assets/main-visual.png");
   background-size: cover;
   background-position: center top;
   position: relative;
