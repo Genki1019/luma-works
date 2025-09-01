@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 140" role="img" aria-label="Luma Works">
+  <style>
+    .word { 
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", "Helvetica Neue", Arial, sans-serif; 
+      font-weight: 700; 
+      letter-spacing: 0.5px; 
+    }
+  </style>
+
+  <!-- マーク -->
+  <g transform="translate(0,10)" stroke="#5f6648" fill="none">
+    <rect x="8" y="8" width="112" height="112" rx="28" ry="28" stroke-width="8"/>
+    <circle cx="88" cy="40" r="16" fill="#5f6648" stroke="none"/>
+    <path d="M28 88c26-2 44-12 58-30 0 0-8 46-58 46-4 0-6-7 0-16z" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M44 92c10-2 20-7 28-14" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- ワードマーク -->
+  <g transform="translate(150, 32)" fill="#5f6648">
+    <!-- マークと高さを揃える -->
+    <text class="word" x="0"   y="84" font-size="96">Luma</text>
+    <text class="word" x="260" y="84" font-size="96">Works</text>
+  </g>
+</svg>
